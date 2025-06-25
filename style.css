@@ -537,14 +537,13 @@ nav a {
 .list-item img {
   position: absolute;
   right: 50%;
-  height: 8rem;
-  width: 8rem;
+  height: 10rem;
+  width: 10rem;
   object-fit: cover;
   object-position: center;
   pointer-events: none;
   border-radius: 2.5%;
   scale: 0;
-  display: none !important;
 }
 
 .list-item .right {
@@ -552,7 +551,7 @@ nav a {
   transition: 0.3s ease-in-out;
 }
 .list-item:hover .right {
-  opacity: 0.25;
+  opacity: 1;
 }
 
 #page6 {
